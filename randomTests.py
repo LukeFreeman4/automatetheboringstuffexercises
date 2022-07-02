@@ -1,9 +1,7 @@
-from operator import index
+import nacl
 
 
-list =['horse', 'cat', 'dog']
+A={"name": {"firstName": "Luke", "lastName": "Freeman"}, "age": 33, "partnerStatus": "single"}
 
-print(list)
-list.sort(reverse=True)
 
-print(list)
+print(A['name']['firstName'] +" " + A['name']['lastName'] + ' is ' + str(A["age"]) + ' years old')
