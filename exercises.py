@@ -1,16 +1,39 @@
 
+
+#! coin flip
+import random
+
+
+
+
+
+
+
+#! Comma Code
+# list_one = ['apples', 'cats','tofu','bananas', 'maps']
+
+# def list_to_string(arg):
+#     new_string = ''
+#     for i in range(len(arg) - 1):   
+#         new_string += (arg[i] + ', ')
+#     new_string += ('and ' + arg[-1])
+#     return new_string
+
+# print(list_to_string(list_one))  
+        
+
 #! Collatz Sequience -then keep calling collatz on the number until the value is 1
-def collatz(number):
-    while number > 1:
-        if number % 2 == 0:
-            number = number // 2
-            print(number)
-        elif number % 2 == 1:
-            number = (3 * number + 1)
-            print(number)
+# def collatz(number):
+#     while number > 1:
+#         if number % 2 == 0:
+#             number = number // 2
+#             print(number)
+#         elif number % 2 == 1:
+#             number = (3 * number + 1)
+#             print(number)
 
 
-collatz(130)
+# collatz(130)
 
 #!ZIGZAG PROGRAM
 # import time, sys
@@ -35,7 +58,6 @@ collatz(130)
 # except KeyboardInterrupt:
 #     sys.exit()
 
-#// _____________________________________________________________________________________________________
 
 #!GUESS THE NUMBER -- Still couldn't get the game to keep track of high score with using functions nor print my exit message when player is done with the game. 
 # import random
@@ -88,21 +110,7 @@ collatz(130)
 
 # start_game()
 
-#// _____________________________________________________________________________________________________
-
-
-
-
-
-
-
-
-
-
-
-
-
-# NAME AND AGE EXERCISE
+#! NAME AND AGE EXERCISE
 # name = input('Hello, What is your name? ')
 # print(f'Hello {name}. It is nice to meet you. the length of your name is {len(name)}')
 # age = int(input('What is your age?'))
